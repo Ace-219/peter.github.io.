@@ -10,8 +10,7 @@ Insights and recommendations are provided on the following key areas:
 
 - **Sales Trends Analysis: Evaluation of historical sales patterns by year and month, with a focus on Revenue, Profit, and Profit Margins.** 
 - **Product-Level Performance: Assessment of bicycles, accessories, and apparel categories, identifying best sellers and loss-leading products.** 
-- **Customer Segmentation: Analysis of age and gender demographics to understand purchasing behaviors and opportunities for targeted marketing.** 
-- **Geographic Comparisons: Evaluation of sales by country and state to identify high-performing markets and areas for expansion.** 
+- **Customer Segmentation: Analysis of age and gender demographics to understand purchasing behaviors and opportunities for targeted marketing.**
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
