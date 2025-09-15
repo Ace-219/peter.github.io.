@@ -22,13 +22,9 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+TrailBlaze Cycles main database structure as seen below consists of one table: sales_data_clean with a total row count of 34866 records.
 
-[Entity Relationship Diagram here]
+<img src="Data_structure.png" alt="Entity Relationship Diagram" width="600" height="600">
 
 
 
@@ -43,56 +39,47 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 
 
 # Insights Deep Dive
-### Category 1:
+### Sales Trends:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+- Revenue peaked in **January 2016 at $297,343**, yet profit was only **$12,898**, highlighting the large gap between sales and profitability.
+  
+- From **January to May 2015**, the company reported **negative profits**, showing that high costs outweighed revenues during the early months.
+  
+- A turnaround began in **July 2015**, with profits becoming consistently positive. By **September 2015**, revenue reached **$213,213** with profit at **$9,626**, indicating improved cost control.
+  
+- Profit margins stabilized between **13% and 16% in 2016**, even as revenue fluctuated between **$182K and $259K**, reflecting a healthier balance between sales and profitability.  
 
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
 [Visualization specific to category 1]
 
 
-### Category 2:
+### Product Performance:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+- **Mountain Bikes dominate revenue at $1,074,594**, yet the profit contribution is relatively small at **$29,231**, showing high sales volume but low profitability.
+  
+- **Jerseys are the strongest performer among clothing**, generating **$303,748 in revenue** and a solid **$47,088 in profit**, proving they deliver both high sales and healthy margins.
+  
+- **Tires and Tubes ($383,732 revenue, $61,039 profit)** and **Helmets ($317,265 revenue, $59,105 profit)** are standout accessory categories, combining high revenue with strong profitability.
+  
+- Several products like **Road Bikes ($264,985 revenue, $4,473 profit)** and **Bottles and Cages ($65,271 revenue, $13,024 profit)** generate sales but contribute very little to profit, highlighting potential pricing or cost issues.  
 
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
 [Visualization specific to category 2]
 
 
-### Category 3:
+### Customer demographics (Age & Gender):
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+- **Adults aged 26–40 are the largest revenue contributors**, generating **$677,558 (F) and $743,459 (M)**, showing this age group drives the bulk of total sales.
+   
+- **Middle-aged customers (41–60) are the second-largest group**, contributing **$499,655 (F) and $612,328 (M)**, highlighting continued strong purchasing power beyond the 26–40 age bracket.
+  
+- **Young adults (18–25) generate relatively low revenue**, with **$231,630 (F) and $196,799 (M)**, suggesting limited disposable income or weaker engagement with the products.
+  
+- **Seniors (61+) contribute the least**, with revenue at just **$23,770 (F) and $27,939 (M)**, making them the smallest and least profitable customer segment.  
 
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
 [Visualization specific to category 3]
 
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
 
 
 
