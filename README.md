@@ -12,11 +12,7 @@ Insights and recommendations are provided on the following key areas:
 - **Product-Level Performance: Assessment of bicycles, accessories, and apparel categories, identifying best sellers and loss-leading products.** 
 - **Customer Segmentation: Analysis of age and gender demographics to understand purchasing behaviors and opportunities for targeted marketing.**
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
-
-Targed SQL queries regarding various business questions can be found here [link].
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+An interactive Tableau dashboard used to report and explore sales trends can be found here [link](https://public.tableau.com/views/TrailBlazeCycles/AgeGender?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 
 
@@ -25,17 +21,6 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 TrailBlaze Cycles main database structure as seen below consists of one table: sales_data_clean with a total row count of 34866 records.
 
 <img src="Data_structure.png" alt="Entity Relationship Diagram" width="600" height="600">
-
-
-
-# Executive Summary
-
-### Overview of Findings
-
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
-
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
-
 
 
 # Insights Deep Dive
@@ -50,7 +35,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 - Profit margins stabilized between **13% and 16% in 2016**, even as revenue fluctuated between **$182K and $259K**, reflecting a healthier balance between sales and profitability.  
 
 
-[Visualization specific to category 1]
+![Visualization specific to category 1](Sales.png)
 
 
 ### Product Performance:
@@ -64,7 +49,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 - Several products like **Road Bikes ($264,985 revenue, $4,473 profit)** and **Bottles and Cages ($65,271 revenue, $13,024 profit)** generate sales but contribute very little to profit, highlighting potential pricing or cost issues.  
 
 
-[Visualization specific to category 2]
+![Visualization specific to category 2](Product.png)
 
 
 ### Customer demographics (Age & Gender):
@@ -78,33 +63,22 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 - **Seniors (61+) contribute the least**, with revenue at just **$23,770 (F) and $27,939 (M)**, making them the smallest and least profitable customer segment.  
 
 
-[Visualization specific to category 3]
+![Visualization specific to category 3](Age_Gender.png)
 
 
 
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+- **Re-assess Mountain Bikes’ profitability.** Despite generating **$1.07M in revenue**, profits were only **$29K**. Pricing adjustments, supplier renegotiations, or introducing higher-margin premium variants are essential to capture stronger returns.  
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+- **Capitalize on high-margin accessories.** Products like **Tires & Tubes ($61K profit)** and **Helmets ($59K profit)** should be prioritized with marketing campaigns, bundling, and upselling to maximize profitability growth.  
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+- **Double down on Jerseys and clothing expansion.** Jerseys produced **$47K in profit** with strong sales, showing strong potential for further investment. Seasonal product launches and targeted promotions could unlock additional gains.  
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+- **Focus marketing efforts on the 26–40 age group.** As the highest-spending demographic (**$1.42M combined revenue**), campaigns, loyalty perks, and tailored offers should prioritize this customer segment.  
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+- **Re-evaluate underperforming products.** Items like **Road Bikes ($4.5K profit)** contribute little despite solid sales. Consider price optimization, bundling, or discontinuation to redirect resources to higher-margin categories.  
 
-
-
-# Assumptions and Caveats:
-
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
-
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
